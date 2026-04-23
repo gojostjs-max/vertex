@@ -160,10 +160,8 @@ export async function createInitialHelpMenu(client) {
     embed.setFooter({ 
         text: "Made with ❤️" 
     });
+    
     embed.setTimestamp();
-
-
-
     const selectRow = createSelectMenu(
         CATEGORY_SELECT_ID,
         "Select to view the commands",
